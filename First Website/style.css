@@ -1,0 +1,56 @@
+body {
+  background-color: #373a3d;
+  color: #dadee0;
+  /* Adding cool font style*/
+  font-family: Bahnschrift;
+  font-size: 1.1em;
+}
+
+table {
+  width: 90%;
+  border="1";
+  align: center;
+}
+
+table, th, td {
+  border: 2px solid #121314;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  background-color: #6a718a;
+  text-align: left;
+}
+/* Adding image opacity below */
+img {
+  opacity:0.4;
+  border-radius: 2px;
+}
+/* This makes it so that when the cursor hovers over the image, it will get 'brighter'*/
+img:hover {
+  opacity:1.0;
+}
+/* My personal logo as a kind of hero image for the webpage */
+.myLogo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+/* Changing the attributes of the list full of internal hyperlinks.*/
+.liteList {
+  background-color: #FFA9A0;
+}
+/* This allows me to customise the styling of the form at the end of the page. */
+.endForm {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid #27a86c;
+  border radius: 2px;
+  border-collapse: collapse;
+}
