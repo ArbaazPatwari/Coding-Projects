@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ProductList
+comment0.text=\r\n\ Manages\ the\ stock\ in\ the\ app.\r\n\r\n\ @author\ Arbaaz\ Patwari\r\n\ @version\ 11/12/2021\r\n
+comment1.params=
+comment1.target=ProductList()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ProductList\r\n
+comment2.params=item
+comment2.target=void\ add(Product)
+comment2.text=\r\n\ Add\ a\ product\ to\ the\ list.\r\n
+comment3.params=item
+comment3.target=void\ remove(Product)
+comment3.text=\r\n\ Remove\ a\ product\ from\ the\ list.\r\n
+comment4.params=productID
+comment4.target=Product\ findProduct(int)
+comment4.text=\r\n\ Finds\ a\ product\ in\ the\ list\ via\ ID.\r\n
+comment5.params=productID\ amount
+comment5.target=void\ buyProduct(int,\ int)
+comment5.text=\r\n\ Buys\ a\ user-defined\ quantity\ of\ products.\r\n
+comment6.params=productID\ amount
+comment6.target=void\ sellProduct(int,\ int)
+comment6.text=\r\n\ Sells\ a\ user-defined\ quantity\ of\ products.\r\n
+comment7.params=
+comment7.target=void\ print()
+comment7.text=\r\n\ Prints\ out\ each\ product\ and\ their\ stock\ level.\r\n
+numComments=8
