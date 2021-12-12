@@ -1,4 +1,4 @@
-# Simple Product App 
+# Simple Product App
 
 PURPOSE OF PROJECT: Manage buying/selling/adding/removing products and storing them in an array.
 VERSION or DATE: 12/12/2021
