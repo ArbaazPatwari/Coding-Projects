@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Games Page</title>
+    <!-- Setting up structure for displaying website data to users; linking files and images to complete styling, scripting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="description" content="This page hosts information pertaining to a variety of video games, explaining their features and style."/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/carousel.png"> 
+  </head>
+  <body>
+    <!-- Elements constructing the Navbar, controlling width, animations, media query -->
+    <header>
+      <a class="link" href="games.html"><h3 class="website_logo">titlecard</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All titlecard webpages that are stored in the same directory written as navigable links -->
+          <li><a class="link" href="games.html">Games</a></li>
+          <li><a class="link" href="platforms.html">Platforms</a></li>
+          <li><a class="link" href="footage.html">Footage</a></li>
+          <li><a class="link" href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->      
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/carousel.png">
+        </span>
+      </label>
+    </header>
+    <!-- Heading of the page, with an icon and short description -->
+    <h3 class="apart_base">Games<img class="top_image" src="images/controller.png"/></h3>
+    <p class="apart">Here are a variety of titles found in the videogame market</p>
+    <hr>
+    <!-- 12 cards that are externally styled. They are displayed in a grid and spill to the next row based on screen size. They are the same size, have one animation and one transformation to make them more dynamic -->
+    <section class="cards">
+      <!-- Main styling for each card; each background image is specified on an inline-basis so the classes did not have to be written again with different images applied -->
+      <div class="card" style="background-image: url(images/halo_reach_card.png);"> 
+        <div class="card-content">
+          <!-- Card title with a small block animation underneath, activated on hovering the mouse over the code -->
+          <h2 class="card-title">Halo: Reach</h2>
+          <!-- At this stage, the website does not have dedicated pages for each game, so the '#' links the button to itself -->
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+    <div class="card" style="background-image: url(images/ror2_card.png);">
+      <div class="card-content">
+        <h2 class="card-title">Risk of Rain 2</h2>
+        <a href="#" class="button">check it out</a>
+      </div>
+    </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/mhw_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Monster Hunter: World</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/titanfall_2_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Titanfall 2</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/warframe_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Warframe</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/nier_automata_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">NieR:Automata</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/dying_light_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Dying Light</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/nuclear_throne_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Nuclear Throne</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/castle_crashers_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Castle Crashers</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/borderlands_2_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Borderlands 2</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/planetary_annihilation_titans_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Planetary Annihilation: Titans</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+    <section class="cards">
+      <div class="card" style="background-image: url(images/subsurface_circular_card.png);">
+        <div class="card-content">
+          <h2 class="card-title">Subsurface Circular</h2>
+          <a href="#" class="button">check it out</a>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!-- Footer with a button to travel to the top of the page -->
+  <footer>
+    <div class="footer-container">
+      <button onclick="pageTop()" class="footer-button">
+        <img class="arrow" src="images/up_arrow.png">
+      </button>
+    </div>
+    <!-- Some schema markup to mimic realistic Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "headline": "Games Page",
+      "datePublished": "2022-01-22"
+    }
+    </script>
+  </footer>
+</html>

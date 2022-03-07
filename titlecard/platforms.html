@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Platforms Page</title>
+    <!-- Setting up structure for displaying website data to users; linking files and images to complete styling, scripting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="This page explains major console families and brands, also suggesting storefronts on where they may be purchased."/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/carousel.png">
+  </head>
+  <body>
+    <!-- Elements constructing the Navbar, controlling width, animations, media query -->
+    <header>
+      <a class="link" href="games.html"><h3 class="website_logo">titlecard</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All titlecard webpages that are stored in the same directory written as navigable links -->
+          <li><a href="games.html">Games</a></li>
+          <li><a href="platforms.html">Platforms</a></li>
+          <li><a href="footage.html">Footage</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/carousel.png">
+        </span>
+      </label>
+    </header>
+    <!-- Heading of the page, with an icon and short description -->
+    <h3 class="apart_base">Platforms<img class="top_image" src="images/platforms.png"/></h3>
+    <p class="apart">Here are a variety of consoles the games can be played on</p>
+    <hr>
+    <ul class="bar_list">
+    <!-- Using anchor tags to provide links to the terms in the table below; each link displays an animation on mouse hover -->
+      <li> <a class="bar_link" href="#Xbox">Xbox</a> </li>
+      <li> <a class="bar_link" href="#PlayStation">PlayStation</a> </li>
+      <li> <a class="bar_link" href="#Nintendo">Nintendo</a> </li>
+      <li> <a class="bar_link" href="#PC">PC</a> </li>
+      <li> <a class="bar_link" href="#Mobile">Mobile</a> </li>
+      <li> <a class="bar_link" href="#Cloud">Cloud</a> </li>
+      <li> <a class="bar_link" href="#Steam">Steam</a> </li>
+    </ul>
+    <table class="platform_table">
+      <tr>
+        <!-- Table header that spans 5 columns wide -->
+        <th colspan="5">Platforms Table</th>
+      </tr>
+      <tr>
+        <!-- Text followed by 2 images, a paragraph, then some hyperlinks -->
+        <td>Platform</td>
+        <td>Logo</td>
+        <td>Console Image</td>
+        <td>Information</td>
+        <td>Retailers</td>
+      </tr>
+      <tr>
+        <td> <a id="Xbox">Xbox</a> </td>
+        <td> <img class="platform_logo" src="images/xbox_logo.png" width="60px" alt="Xbox Logo"> </td>
+        <td> <img src="images/xbox_console.png" width="100" alt="Newest Xbox consoles"> </td>
+        <td> <p class="text_resize">The Xbox console lineup is brought to gamers by Microsoft. There are 2 versions, with the Series X being more powerful and having more storage than the S model. These consoles have been very popular because of extensive backwards compatibility for old games, and its Game Pass holds brilliant value. The Xbox is a great console for couch gaming, and filling other entertainment needs.</p> </td>
+        <td> <p class="text_resize">(Xbox Series X is often out of stock)</p> <a class="link" href="https://www.microsoft.com/en-gb/store/collections/xboxconsoles?icid=Cat-Xbox-Nav-1-Consoles-230617-en-GB"><img class="buy_link_1" src="images/microsoft_icon.png"></a> <a class="link" href="https://www.amazon.co.uk/s?k=xbox&crid=3TOFY34BIT9F&sprefix=xbox%2Caps%2C84&ref=nb_sb_noss_2"><img class="buy_link_2" src="images/amazon_icon.png"></a> <a class="link" href="https://www.currys.co.uk/gbuk/microsoft-gaming/console-gaming/console-gaming/consoles/634_4783_32541_195_xx/xx-criteria.html"><img class="buy_link_3" src="images/currys_icon.png"></a> </td>
+      </tr>
+      <tr>
+        <td> <a id="PlayStation">PlayStation</a> </td>
+        <td> <img src="images/ps_logo.png" width="60px" alt="PlayStation Logo"> </td>
+        <td> <img src="images/ps_console.png" width="100" alt="Newest PlayStation consoles"> </td>
+        <td> <p class="text_resize">The PlayStation console lineup is brought to gamers by Sony. The currently retailed PlayStation has 2 versions, identical except for the disk reader on the standard model. They are highly sought after because of the great number of high quality, high octane exclusive games available on its store. The PlayStation is a great console for couch gaming and competing with friends.</p> </td>
+        <td> <p class="text_resize">(PS5 may be out of stock)</p> <a class="link" href="https://direct.playstation.com/en-gb/hardware/ps5"><img class="buy_link_1" src="images/playstation_icon.png"></a> <a class="link" href="https://www.amazon.co.uk/s?k=playstation+5&crid=RDM8ZCTJACQD&sprefix=playstation+5%2Caps%2C81&ref=nb_sb_noss"><img class="buy_link_2" src="images/amazon_icon.png"></a> <a class="link" href="https://www.argos.co.uk/search/ps5/?clickOrigin=searchbar:home:term:ps5"><img class="buy_link_3" src="images/argos_icon.png"></a> </td>
+      </tr>
+      <tr>
+        <td> <a id="Nintendo">Nintendo</a> </td>
+        <td> <img class="platform_logo" src="images/nintendo_logo.png" width="60px" alt="Nintendo Logo"> </td>
+        <td> <img src="images/nintendo_console.png" width="100" alt="Newest Nintendo consoles"> </td>
+        <td> <p class="text_resize">The Nintendo console lineup is brought to gamers by Nintendo. The currently retailed Switch has 3 versions, with the newest being the OLED model. They are famed for their hybrid style of gaming, either at home on the telly (docked), or played in an office before the meeting starts (handheld). These systems are convenient for gaming anywhere, but are limited to Nintendo-published games only.</p> </td>
+        <td> <p class="text_resize">(The Switch is usually in stock)</p> <a class="link" href="https://store.nintendo.co.uk/en_gb/nintendo-switch-consoles.html"><img class="buy_link_1" src="images/switch_icon.png"></a> <a class="link" href="https://www.amazon.co.uk/s?k=nintendo+switch&crid=21QL368A8G5SX&sprefix=nintendo+switch%2Caps%2C86&ref=nb_sb_noss_1"><img class="buy_link_2" src="images/amazon_icon.png"></a> <a class="link" href="https://www.currys.co.uk/gbuk/nintendo-switch/console-gaming/consoles/634_4783_32541_xx_ba00013671-bv00313585/xx-criteria.html"><img class="buy_link_3" src="images/currys_icon.png"></a> </td>
+      </tr>
+      <tr>
+        <td> <a id="PC">PC</a> </td>
+        <td> <img class="platform_logo" src="images/pc_logo.png" width="60px" alt="PC Icon"> </td>
+        <td> <img src="images/pc_console.png" width="100" alt="New PC console"> </td>
+        <td> <p class="text_resize">The personal computer is either a desktop or laptop that people own and use. They can come in many configurations depending on the retailer, or if the user opts to build their own custom. They support a vast library of games, usually with more complex graphical settings than console game counterparts. These systems are convenient for many activities alongside gaming.</p> </td>
+        <td> <p class="text_resize">(Some gaming computer stores)</p> <a class="link" href="https://www.omen.com/us/en.html"><img class="buy_link_1" src="images/omen_icon.png"></a> <a class="link" href="https://www.dell.com/en-uk/gaming"><img class="buy_link_2" src="images/alienware_icon.png"></a> <a class="link" href="https://nzxt.com/category/gaming-pcs/build"><img class="buy_link_3" src="images/nzxt_icon.png"></a> </td>
+      </tr>
+      <tr>
+        <td> <a id="Mobile">Mobile</a> </td>
+        <td> <img class="platform_logo" src="images/mobile_logo.png" width="60px" alt="Mobile OS Logos"> </td>
+        <td> <img src="images/mobile_console.png" width="100" alt="New Mobile consoles"> </td>
+        <td> <p class="text_resize">The smartphone is an ever-capable small computing device people carry to every location. They can come in different specifications, some being more suited to gaming. They offer gaming-on-the-go, whether that's waiting for the next train or standing in line at the coffee shop. These systems are convenient for gaming anywhere, but often lack quality titles in their app stores.</p> </td>
+        <td> <p class="text_resize">(Some gaming phone stores)</p> <a class="link" href="https://www.lenovo.com/gb/en/phones/lenovo/legion-phone-duel/Legion-Phone-Duel-2/p/PPIPPIZ7081"><img class="buy_link_1" src="images/legion_icon.png"></a> <a class="link" href="https://uk.store.asus.com/zs673ks-1a017eu-asus-rog-phone.html"><img class="buy_link_2" src="images/rog_icon.png"></a> </td>
+      </tr>
+        <td> <a id="Cloud">Cloud</a> </td>
+        <td> <img class="platform_logo" src="images/cloud_logo.png" width="60px" alt="Cloud Gaming Logo"> </td>
+        <td> <img src="images/cloud_console.png" width="100" alt="Cloud Gaming Example"> </td>
+        <td> <p class="text_resize">The internet is heavily relied on for many things, recently supporting official game streaming. Providers host libraries of varying games, at different pricepoints. This platform offers gaming on any internet-connected device - no downloads, no high-spec hardware required, no trouble. This is convenient for gaming on any screen, but requires a fast internet connection.</p> </td>
+        <td> <p class="text_resize">(Some cloud gaming services)</p> <a class="link" href="https://www.nvidia.com/en-gb/geforce-now/"><img class="buy_link_1" src="images/nvidia_icon.png"></a> <a class="link" href="https://stadia.google.com/?hl=en-GB"><img class="buy_link_2" src="images/stadia_icon.png"></a> <a class="link" href="https://www.xbox.com/en-GB/xbox-game-pass/cloud-gaming#join"><img class="buy_link_3" src="images/gamepass_icon.png"></a> </td>
+      </tr>
+      <tr>
+        <td> <a id="Steam">Steam</a> </td>
+        <td> <img class="platform_logo" src="images/steam_logo.png" width="60px" alt="Steam Deck logo"> </td>
+        <td> <img src="images/deck_console.png" width="100" alt="Steam Deck Console"> </td>
+        <td> <p class="text_resize">The Steam Deck is Valve's novel handheld, with the power of a PC in a handheld form factor. It comes in 3 identical versions, with varying internal storage. They will be quite wonderful in the eyes of traditional PC gamers, as they can experience their existing library in a new light. The systems can be brought to many different locations, even dock by a tv, the only concern being battery life.</td>
+        <td> <p class="text_resize">(Currently pre-order only)</p> <a class="link" href="https://www.steamdeck.com/en/"><img class="buy_link_1" src="images/deck_icon.png"></a> </td>
+      </tr>
+      </table>
+  <!-- Footer with a button to travel to the top of the page -->
+  <footer>
+    <div class="footer-container">
+      <button onclick="pageTop()" class="footer-button">
+        <img class="arrow" src="images/up_arrow.png">
+      </button>
+    </div>
+    <!-- Some schema markup to mimic realistic Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "Platforms Page",
+        "datePublished": "2022-01-22"
+      }
+    </script>
+  </footer>
+  </body>
+</html>

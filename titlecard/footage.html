@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Footage Page</title>
+    <!-- Setting up structure for displaying website data to users; linking files and images to complete styling, scripting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="description" content="This page shows trailers and gameplay footage describing the listed games."/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/carousel.png">
+  </head>
+  <body>
+  <!-- Elements constructing the Navbar, controlling width, animations, media query -->
+    <header>
+      <a class="link" href="games.html"><h3 class="website_logo">titlecard</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All titlecard webpages that are stored in the same directory written as navigable links -->
+          <li><a href="games.html">Games</a></li>
+          <li><a href="platforms.html">Platforms</a></li>
+          <li><a href="footage.html">Footage</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/carousel.png">
+        </span>
+      </label>
+    </header>
+    <!-- Heading of the page, with an icon and short description -->
+    <h3 class="apart_base">Footage<img class="top_image" src="images/footage.png"/></h3>
+    <p class="apart">Here are several videos showcasing the games</p>
+    <hr>
+    <br>
+    <!-- Positioning the iframe in the centre of the screen; Manages the majority of styling, positions the buttons, iframe size -->
+    <div style="align-items:center;margin-top:5%;margin-bottom:10%;" class="slideshow-container">
+      <div class="mySlides fade">
+        <!-- iframe slideshow progress indicator -->
+        <div class="numbertext">1/12</div>
+        <!-- Embedded videos from youtube.com-->
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/s3MabEog3yQ" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/pJ-aR--gScM" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/OotQrKEqe94" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/ktw2k3m7Qko" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/MsbL8lFHrZI" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/kgErfA58ZCg" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/M-_ZbmSTJyw" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/7LSs1bj41P4" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">9/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/bu6Kwvd695w" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">10/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/i_n18lovbss" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">11/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/mO1N_gehg-M" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">12/12</div>
+        <iframe width="100%" height="350" src="https://www.youtube.com/embed/mzyRAVKjMlo" title="YouTube video player" frameborder="0" allow=" clipboard-write; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <!-- Stylised left and right buttons to traverse the slideshow -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- Internal JavaScript placed at this location performs normally; it handles the displaying of the current slides, and removing it when the previous or next slide is selected -->
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
+  <!-- Footer with a button to travel to the top of the page -->
+  <footer>
+    <div class="footer-container">
+      <button onclick="pageTop()" class="footer-button">
+        <img class="arrow" src="images/up_arrow.png">
+      </button>
+    </div>
+    <!-- Some schema markup to mimic realistic Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "Footage Page",
+        "datePublished": "2022-01-22"
+      }
+    </script>
+  </footer>
+</html>

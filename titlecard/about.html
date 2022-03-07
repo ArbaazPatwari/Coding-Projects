@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Page</title>
+    <!-- Setting up structure for displaying website data to users; linking files and images to complete styling, scripting -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <meta name="description" content="A succinct website for indexing videogame information, platform information, and gameplay footage. Ideal for gaming enthusiasts and interested parties."/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/carousel.png">
+  </head>
+  <body>
+    <!-- Elements constructing the Navbar, controlling width, animations, media query -->
+    <header>
+      <a class="link" href="games.html"><h3 class="website_logo">titlecard</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All titlecard webpages that are stored in the same directory written as navigable links -->
+          <li><a href="games.html">Games</a></li>
+          <li><a href="platforms.html">Platforms</a></li>
+          <li><a href="footage.html">Footage</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/carousel.png">
+        </span>
+      </label>
+    </header>
+    <!-- Heading of the page, with an icon and short description -->
+    <h3 class="apart_base">About<img class="top_image" src="images/about.png"/></h3>
+    <p class="apart">This website is a gaming wiki, explaining details about games</p>
+    <hr>
+    <!-- Predetermined chunk of page I decided to utilise as a box to place text and an image -->
+    <div class="about_block_1">
+      <!-- Custom image styling that allows the content to fit screens of large and small sizes via a media query -->
+      <img class="arbaaz_image" src="images/arbaaz_profile.png"/>
+      <!-- The text resizes at 770px to fit both large and small screens. Each 'block' on this page aims to position text practicably -->
+      <p class="info_block_1">Hey reader, Arbaaz here and this is my gaming wiki. I am very interested in the gaming industry 
+      because ever since I was young it has brought me great joy. Videogames are awesome, being 
+      able to dive into so many realities and undertaking quests and objectives is entertaining and thrilling. I've travelled from the DS
+      to the Wii, to the Xbox 360 and PC. Now, I want to share this knowledge with others, to create new gamers and
+      to fuel dreamers.
+      </p>
+    </div>
+    <div class="about_block_2">
+      <img class="genres_image" src="images/genres_diagram.png"/>
+      <p class="info_block_2">Chances are, there is a game genre ideal for you. There are plenty of videogame styles
+      with many different mechanics that drive the experience. These 'genres' define what the game will play like,
+      and usually follow one genre, with several subgenres sometimes - to keep it consistent with its purpose. Some 
+      popular genres include Role Playing Games, MMOs, Shooters, Strategy, Adventure. An example subgenre of shooter 
+      would be a first person shooter. Similarly, a game could employ turn-based strategy rather than real-time.
+      </p>
+    </div>
+    <div class="about_block_3">
+      <img class="controllers_image" src="images/controllers_types.png"/>
+      <p class="info_block_3">To play a game there are different types of controllers available. The controller, and 
+      mouse & keyboard are the most common methods of input. M&K is known for its precision, and extensive keybinding
+      options. A controller feels quite comfortable in the hand, and is perfect for interacting with a console from a 
+      distance. I would generally recommend M&K for shooters and strategy games, and a controller for driving or 
+      exploration games.
+      </p>
+    </div>
+    <div class="about_block_4">
+      <img class="multiplayer_image" src="images/multiplayer_picture.png" />
+      <p class="info_block_4">Who should you play with? Depending on the game, it can support different numbers of 
+      players in a party or able to interact on the same map. Sometimes, going solo is more immersive and manageable.
+      Playing with friends, however, can be a really fun and engaging situation. Online multiplayer can support 
+      gamers internationally, being able to connect with someone across the world is surreal. Linking with someone
+      random and going on an adventure can be funky.
+      </p>
+    </div>
+    <div class="about_block_5">
+      <p class="info_block_5">What are you waiting for?
+      </p>
+    </div>
+  <!-- Footer with a button to travel to the top of the page -->
+  <footer>
+    <div class="footer-container">
+      <button onclick="pageTop()" class="footer-button">
+        <img class="arrow" src="images/up_arrow.png">
+      </button>
+    </div>
+    <!-- Some schema markup to mimic realistic Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "About Page",
+        "datePublished": "2022-01-22"
+      }
+    </script>
+  </footer>
+  </body>
+</html>
