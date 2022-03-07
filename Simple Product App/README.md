@@ -6,4 +6,4 @@ Author: Arbaaz Patwari
 
 Video Tutorial: https://youtu.be/XcbUUHmFd1Q
 
-![Thumbnail](https://github.com/ArbaazPatwari/Coding-Projects-Arbaaz/blob/main/Simple%20Product%20App/Product_App_Thumbnail.png)
+![Thumbnail](https://github.com/ArbaazPatwari/Coding-Projects-Arbaaz/blob/main/Simple%20Product%20App/thumbnail.png)
