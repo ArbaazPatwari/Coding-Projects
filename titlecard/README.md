@@ -7,4 +7,4 @@ Author: Arbaaz Patwari
 
 Video Tutorial: 
 
-![Preview]()
+![Preview](https://github.com/ArbaazPatwari/Coding-Projects-Arbaaz/blob/main/titlecard/thumbnail.png)
