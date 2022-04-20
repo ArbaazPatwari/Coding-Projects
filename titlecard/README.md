@@ -5,6 +5,6 @@ Hey guys, here are the files and code I used to make a cool gaming wiki website 
 
 Author: Arbaaz Patwari
 
-Video Tutorial: 
+Video Tutorial: (Upcoming)
 
 ![Preview](https://github.com/ArbaazPatwari/Coding-Projects-Arbaaz/blob/main/titlecard/thumbnail.png)
