@@ -5,6 +5,13 @@ Hey guys, here are the files and code I used to make a cool gaming wiki website 
 
 Author: Arbaaz Patwari
 
-Video Tutorial: (Upcoming)
+Video Showcase: (Upcoming)
 
 ![Preview](https://github.com/ArbaazPatwari/Coding-Projects-Arbaaz/blob/main/titlecard/thumbnail.png)
+
+Credits:
+
+1. Navbar, card, footer by Kevin Powell: https://www.youtube.com/kepowob
+2. Layout cards with grid by Abbey: https://getflywheel.com/layout/card-layout-css-grid-layout-how-to/
+3. Slideshow by W3Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp
+4. Fonts and Icons by Google: https://fonts.google.com/
