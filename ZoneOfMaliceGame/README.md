@@ -11,6 +11,7 @@ Video showcase: https://youtu.be/aPHMDD661kQ
 
 ![Preview](https://github.com/ArbaazPatwari/Coding-Projects-Arbaaz/blob/main/ZoneOfMaliceGame/thumbnail.png)
 
-Credits: Tutorial by Epitome - (https://www.youtube.com/c/EpitomeGames)
-         Tileset by Robert - (https://0x72.itch.io/16x16-dungeon-tileset)
-         Font maker by Pentacom.jp - (https://www.pentacom.jp/pentacom/bitfontmaker2/)
+Credits: 
+Tutorial by Epitome: https://www.youtube.com/c/EpitomeGames
+Tileset by Robert: https://0x72.itch.io/16x16-dungeon-tileset
+Font maker by Pentacom.jp: https://www.pentacom.jp/pentacom/bitfontmaker2/
