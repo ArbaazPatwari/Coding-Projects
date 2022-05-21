@@ -13,6 +13,6 @@ Video showcase: https://youtu.be/aPHMDD661kQ
 
 Credits:
 
-- Tutorial by Epitome: https://www.youtube.com/c/EpitomeGames
-- Tileset by Robert: https://0x72.itch.io/16x16-dungeon-tileset
-- Font maker by Pentacom.jp: https://www.pentacom.jp/pentacom/bitfontmaker2/
+1. Tutorial by Epitome: https://www.youtube.com/c/EpitomeGames
+2. Tileset by Robert: https://0x72.itch.io/16x16-dungeon-tileset
+3. Font maker by Pentacom.jp: https://www.pentacom.jp/pentacom/bitfontmaker2/
