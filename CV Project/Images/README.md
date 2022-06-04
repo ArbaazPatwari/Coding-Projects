@@ -5,4 +5,4 @@ Hey guys, here is a small showcase of my XML CV and Resume project. I started wo
 
 ![CV_Image](https://github.com/ArbaazPatwari/Coding-Projects/blob/main/CV%20Project/Images/XML%20CV%20(censored).png)
 
-![Resume_Image](https://github.com/ArbaazPatwari/Coding-Projects/blob/main/CV%20Project/Images/XML%20CV%20(censored).png)
+![Resume_Image](https://github.com/ArbaazPatwari/Coding-Projects/blob/main/CV%20Project/Images/Resume%20CV%20(censored).png)
