@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simple Product App - Spectre</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="My overview of project #2.">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script type="text/javascript" src="../script.js"></script>
+    <link rel="icon" type="image/png" href="../images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="../index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="../index.html">About</a></li>
+          <li><a href="../reviews.html">Reviews</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="../images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">Simple Product App</h2>
+      <p class="introduction">Below is my Simple Product App overview. My code: <a class="link" href="https://github.com/ArbaazPatwari/Coding-Projects/tree/main/Simple%20Product%20App">Project 2 Simple Product App</a></p>
+      <img class="introduction_image" src="../images/simple_product_app_thumbnail.png" alt="Simple Product App Image">
+      <p class="publish_date_base">Published &#x2022 08 October 2022</p>
+      <hr class="rule">
+      <div></div>
+
+      <article class="article_style">
+        <section>
+          <h2>Simple Product App</h2>
+          <div class="separator"></div>
+          <h3>Language: Java</h3>
+          <p>
+            This app allows you to add product objects to an array, then buy/sell/remove them. It was last updated on 12/12/2021. To
+            start this project, pick a Java IDE such as BlueJ or IntelliJ, and make 2 classes called Product and ProductList.
+          </p>
+          <br>
+          <h3>Information</h3>
+          <ul class="square_list">
+            <li>Author: Arbaaz Patwari</li>
+            <li>Video Tutorial: <a class="link" href="https://youtu.be/XcbUUHmFd1Q">https://youtu.be/XcbUUHmFd1Q</a></li>
+          </ul>
+        </section>
+      </article>
+
+      <div></div>
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="../images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>First Website - Spectre</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="My overview of project #1.">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script type="text/javascript" src="../script.js"></script>
+    <link rel="icon" type="image/png" href="../images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="../index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="../index.html">About</a></li>
+          <li><a href="../reviews.html">Reviews</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="../images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">First Website</h2>
+      <p class="introduction">Below is my First Website overview. My code: <a class="link" href="https://github.com/ArbaazPatwari/Coding-Projects/tree/main/First%20Website">Project 1 First Website</a></p>
+      <img class="introduction_image" src="../images/first_website_thumbnail.png" alt="Simple Product App Image">
+      <p class="publish_date_base">Published &#x2022 08 October 2022</p>
+      <hr class="rule">
+      <div></div>
+
+      <article class="article_style">
+        <section>
+          <h2>Arbaaz's Definitions Website</h2>
+          <div class="separator"></div>
+          <h3>Language: HTML, CSS, JS</h3>
+          <p>
+            Hey guys, here are the files and code I have used to make this test website. My first website is just testing out
+            various HTML elements and teaches me how they look and work on a web page. I also externally linked in a JavaScript and
+            CSS with script and link tags, respectively, to manage the presentation and functions on the web page. I created this
+            website in October and worked on it for the duration of a week or two.
+          </p>
+          <br>
+          <h3>Information</h3>
+          <ul class="square_list">
+            <li>Author: Arbaaz Patwari</li>
+            <li>Video Tutorial: <a class="link" href="https://youtu.be/36qZfKUW3Lo">https://youtu.be/36qZfKUW3Lo</a></li>
+          </ul>
+        </section>
+      </article>
+
+      <div></div>
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="../images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

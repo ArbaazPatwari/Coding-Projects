@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Boilerplate</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="Boilerplate">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="index.html">About</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">Boilerplate Page</h2>
+      <img class="heading_image_3" src="images/info_icon.png">
+      <p class="introduction">This page is a boilerplate page</p>
+      <hr class="rule">
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

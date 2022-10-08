@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project Spectre</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="My overview of project #6.">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script type="text/javascript" src="../script.js"></script>
+    <link rel="icon" type="image/png" href="../images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="../index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="../index.html">About</a></li>
+          <li><a href="../reviews.html">Reviews</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="../images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">spectre</h2>
+      <p class="introduction">Below is my spectre overview. My code (as of 8th October 2022): <a class="link" href="https://github.com/ArbaazPatwari/Coding-Projects/tree/main/spectre">Project 6 spectre</a></p>
+      <img class="introduction_image" src="../images/spectre_thumbnail.png" alt="spectre Image">
+      <p class="publish_date_base">Published &#x2022 08 October 2022</p>
+      <hr class="rule">
+      <div></div>
+
+      <article class="article_style">
+        <section>
+          <h2>spectre</h2>
+          <div class="separator"></div>
+          <h3>Language: HTML, CSS, JS</h3>
+          <h3>Code editor: VS Code</h3>
+          <p>
+            Hey guys, this is my personal web development project called spectre. It is an evolution of my old website titlecard,
+            and is a personal blog/ showcase website for my videos and code. It has several improvements like enhanced CSS
+            decorations, some internal navigation, and is even hosted online with GitHub Pages which I find really cool (The service
+            can host your website files for free online if stored in a GitHub repository and configured correctly). The most
+            important accomplishment though is the completion of the game wikis (progress: 25/30). I started researching and
+            development in late June 2022 and am still adding articles and onto it. It currently has 4 main pages: About, Reviews,
+            Projects, Notes; it has 30 subpages (at the moment) excluding 3 boilerplates. There are a lot of images which I didn't
+            compress so you may expect high bandwidth usage and moderate load times. I took much inspiration from a handful of
+            developers who I will include in the credits.
+          </p>
+          <br>
+          <h3>Information</h3>
+          <ul class="square_list">
+            <li>Author: Arbaaz Patwari</li>
+            <li>Credits:  <ol>
+                            <li>How to use GitHub Pages by The Net Ninja: <a class="link" href="https://www.youtube.com/watch?v=QyFcl_Fba-k">https://www.youtube.com/watch?v=QyFcl_Fba-k</a></li>
+                            <li>Website inspiration found from: 
+                              <a class="link" href="https://www.kevinpowell.co/">Kevin Powell</a>,
+                              <a class="link" href="https://www.craftz.dog/">Takuya Matsuyama</a>,
+                              <a class="link" href="https://lookdeceline.github.io/">Celine Moon</a>,
+                              <a class="link" href="https://www.barakona.com/">Bara Konateh</a>,
+                              <a class="link" href="https://www.taniarascia.com/me/">Tania Rascia</a>
+                            </li>
+                          </ol>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <div></div>
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="../images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

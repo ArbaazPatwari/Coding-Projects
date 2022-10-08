@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Projects</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="This page will include various cards that point to information about my coding projects. Each one can be found on GitHub.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="index.html">About</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">Projects Page</h2>
+      <img class="heading_image_4" src="images/projects_icon.png">
+      <p class="introduction">This page showcases some of my coding projects found on GitHub and links to the code.</p>
+      <hr class="rule">
+      <div class="internal_nav_box">
+        <ul class="list_sideways">
+          <li><a id="T" class="internal_link" href="#T">Top</a> |</li>
+          <li><a class="internal_link" href="#M">Middle</a> |</li>
+          <li><a class="internal_link" href="#B">Bottom</a></li>
+        </ul>
+      </div>
+      <section class="cards">
+        <div class="card" style="background-image: url(images/first_website_thumbnail.png);" aria-label="First Website Image">
+          <div class="card-content">
+            <h2 class="card-title">First Website</h2>
+            <a href="./subpages/project-first-website.html" class="button">check it out</a>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card" style="background-image: url(images/simple_product_app_thumbnail.png);" aria-label="Simple Product App Image">
+          <div class="card-content">
+            <h2 class="card-title-dark">Simple Product App</h2>
+            <a href="./subpages/project-simple-product-app.html" class="button">check it out</a>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card" style="background-image: url(images/titlecard_thumbnail.png);" aria-label="titlecard Image">
+          <div class="card-content">
+            <h2 class="card-title">titlecard</h2>
+            <a href="./subpages/project-titlecard.html" class="button">check it out</a>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card" style="background-image: url(images/zone_of_malice_thumbnail.png);" aria-label="Zone of Malice Image">
+          <div class="card-content">
+            <h2 id="M" class="card-title">Zone of Malice</h2>
+            <a href="./subpages/project-zone-of-malice.html" class="button">check it out</a>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card" style="background-image: url(images/xml_resume_thumbnail.png);" aria-label="XML Resume Image">
+          <div class="card-content">
+            <h2 class="card-title-dark">CV and Resume</h2>
+            <a href="./subpages/project-cv-and-resume.html" class="button">check it out</a>
+          </div>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card" style="background-image: url(images/spectre_thumbnail.png);" aria-label="spectre Image">
+          <div class="card-content">
+            <h2 id="B" class="card-title">spectre</h2>
+            <a href="./subpages/project-spectre.html" class="button">check it out</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

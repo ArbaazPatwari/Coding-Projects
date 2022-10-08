@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notes Page - Spectre</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="This page will include posts of helpful information I learn when coding apps or programs, or thoughts and ideas.">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" type="image/png" href="images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="index.html">About</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">Notes Page</h2>
+      <img class="heading_image_3" src="images/note_icon.png">
+      <p class="introduction">This page shows a list of informative posts about coding or my thoughts, linking to each article.</p>
+      <hr class="rule">
+      <div></div>
+      
+      <div class="internal_nav_box">
+        <ul class="list_sideways">
+          <li><a class="internal_link" href="#Coding">Coding</a> |</li>
+          <li><a class="internal_link" href="#Computing">Computing</a> |</li>
+          <li><a class="internal_link" href="#Things">Things</a></li>
+        </ul>
+      </div>
+      <article class="note_article">
+        <section>
+          <h3 id="Coding">Coding</h3>
+          <ul class="blank_list">
+            <li><div class="dotflash"><a class="list_link" href="#">#1 Making a custom cursor for my websites</a></div></li>
+          </ul>
+          <div class="separator"></div>
+          <h3 id="Computing">Computing</h3>
+            <ul class="blank_list">
+              <li><div class="dotflash"><a class="list_link" href="#">#1 An overview of the computer</a></div></li>
+            </ul>
+          <div class="separator"></div>
+          <h3 id="Things">Things</h3>
+          <ul class="blank_list">
+            <li><div class="dotflash"><a class="list_link" href="#">#1 Random tech ideas</a></div></li>
+          </ul>
+        <section>
+      </article>
+
+      <div></div>
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>

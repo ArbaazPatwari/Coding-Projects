@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CV and Resume - Spectre</title>
+    <!-- Structure for displaying website data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="description" content="My overview of project #5.">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <script type="text/javascript" src="../script.js"></script>
+    <link rel="icon" type="image/png" href="../images/shadow_icon.png">
+  </head>
+  <body>
+    <header>
+      <a class="link" href="../index.html"><h3 class="website_logo">spectre</h3></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav>
+        <ul>
+          <!-- All spectre webpages that are stored in the same directory written as navigable links -->
+          <li><a href="../index.html">About</a></li>
+          <li><a href="../reviews.html">Reviews</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../notes.html">Notes</a></li>
+        </ul>
+      </nav>
+      <!-- heading that turns into an image that is a button, and displays the Navbar links in a drop-down menu when the screen size gets small -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span>
+          <img class="nav-toggle-label" src="../images/slim_shadow_icon.png">
+        </span>
+      </label>
+    </header>
+    <!-- Where the main HTML content will be written -->    
+    <main>
+      <hr class="rule bodysetter">
+      <h2 class="introduction_base">CV and Resume</h2>
+      <p class="introduction">Below is my CV and Resume overview. My folder: <a class="link" href="https://github.com/ArbaazPatwari/Coding-Projects/tree/main/CV%20Project/Images">Project 5 CV and Resume</a></p>
+      <img class="introduction_image" src="../images/xml_resume_thumbnail.png" alt="XML CV Image">
+      <p class="publish_date_base">Published &#x2022 08 October 2022</p>
+      <hr class="rule">
+      <div></div>
+
+      <article class="article_style">
+        <section>
+          <h2>XML CV and Resume</h2>
+          <div class="separator"></div>
+          <h3>Language: XML, XSLT, CSS, XSD</h3>
+          <h3>IDE: Visual Studio 2022</h3>
+          <p>
+            Hey guys, here is a small showcase of my XML CV and Resume project. I started working on this in mid May 2022 and
+            finished it by the end of that month. I've censored some sensitive data but still wanted to showcase the techniques I
+            used like lists and loops for displaying data. Also I didn't want people to directly copy from my template in this
+            instance and create a work quickly. All of my structure tags stored data and attributes for each part of the CV like
+            work experience or skills. This is linked to an XSLT file which uses HTML tags to format the structural data as a web
+            page. A CSS file is linked to the XSLT file which allows you to style the markup's colour and shape. The XSD document
+            declared simple types and complex types to validate the XML code and make sure it is used within bounds (like only one
+            section for a summary). I changed XSLT, CSS, XSD file contents to make the Resume document. There were several errors
+            with my XSD files but the pages rendered properly. The images partially show each document as I did a standard screen
+            snip. I based the document structure on my indeed CV.
+          </p>
+          <br>
+          <h3>Information</h3>
+          <ul class="square_list">
+            <li>Author: Arbaaz Patwari</li>
+            <li>Credits:  <ol>
+                            <li>XML documentation by W3Schools: <a class="link" href="https://www.w3schools.com/xml/">https://www.w3schools.com/xml/</a></li>
+                          </ol>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <div></div>
+    </main>
+    <!-- A section for the small footer at the bottom of the page -->
+    <footer>
+      <div class="footer-container">
+        <button onclick="pageTop()" class="footer-button">
+          <img class="arrow" src="../images/arrow_up_small.png">
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
