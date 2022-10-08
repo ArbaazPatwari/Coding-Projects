@@ -8,3 +8,6 @@ Author: Arbaaz Patwari
 ![CV_Image](https://github.com/ArbaazPatwari/Coding-Projects/blob/main/CV%20Project/Images/XML%20CV%20(censored).png)
 
 ![Resume_Image](https://github.com/ArbaazPatwari/Coding-Projects/blob/main/CV%20Project/Images/Resume%20CV%20(censored).png)
+
+Credits:
+1. XML documentation by W3Schools: https://www.w3schools.com/xml/
